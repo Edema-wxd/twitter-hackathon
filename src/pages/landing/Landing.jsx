@@ -27,7 +27,7 @@ function Landing() {
         <Booting />
       ) : (
         <Pagechange>
-          <Nav />
+          <Nav location="home" />
           <div className={style.Landing}>
             <Hero />
             <Intro />

@@ -3,7 +3,7 @@ import style from "./Time.module.css";
 
 function Time() {
   return (
-    <div className={style.Time}>
+    <div id="time" className={style.Time}>
       <h2>Timeline</h2>
       <p>
         Here is the breakdown of the time we anticipate using for the upcoming

@@ -10,7 +10,7 @@ function Hero() {
   const navigate = useNavigate();
 
   return (
-    <div className={style.Hero}>
+    <div id="over" className={style.Hero}>
       <div className={style.HIno}>
         <p className={style.HIp}>Igniting a Revolution in HR Innovation</p>
         <img src={uncurve} alt="" />
@@ -19,7 +19,7 @@ function Hero() {
         <div className={style.HITitle}>
           <img src={bulb} alt="" />
           <h1>
-            getlinked Tech Hackathon 
+            getlinked Tech Hackathon
             <span> 1.0</span>
           </h1>
         </div>

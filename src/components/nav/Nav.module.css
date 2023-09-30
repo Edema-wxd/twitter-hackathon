@@ -20,10 +20,10 @@
   line-height: normal;
 }
 
-.NLinks a {
+.NLinks a, .Nav>a {
   text-decoration: none;
   color: #fff;
-  margin: auto;
+  margin: auto 0;
 }
 
 .NLIn {

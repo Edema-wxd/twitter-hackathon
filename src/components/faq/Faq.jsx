@@ -5,7 +5,7 @@ import plus from "../../assets/images/plus.svg";
 
 function Faq() {
   return (
-    <div className={style.Faq}>
+    <div id="faq" className={style.Faq}>
       <div className={style.FTxt}>
         <h2>
           Frequently Ask
