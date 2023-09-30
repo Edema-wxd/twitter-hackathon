@@ -1,0 +1,124 @@
+html {
+  background-color: var(--dark-blue);
+}
+.Contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+}
+.CInfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.CInfo > h2 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.CInfo > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.CInfo > p:first-of-type {
+  max-width: min-content;
+}
+.CInfo > p:nth-child(3) {
+  max-width: 7.5rem;
+}
+.CInfo > p:nth-child(5) {
+  max-width: 17rem;
+}
+
+.CInfo > div > p > span {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.CInfo > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.CInfo > div > div > a {
+  margin: auto 0;
+}
+
+.CSect {
+  max-width: 38rem;
+  height: auto;
+  margin: 5rem auto;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  padding: 5.69rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.CSect > h3 > span {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.CForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.CForm > input,
+.CForm > textarea {
+  min-height: 2.4375rem;
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.25rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.CForm > button {
+  width: 10.75rem;
+  height: 3.3125rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

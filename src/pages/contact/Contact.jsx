@@ -7,6 +7,7 @@ import instagram from "../../assets/images/instagram.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 import facebook from "../../assets/images/facebook.svg";
 import x from "../../assets/images/X.svg";
+import Nav from "../../components/nav/Nav";
 
 function Contact() {
   const [loading, setLoading] = useState(false);
@@ -59,6 +60,7 @@ function Contact() {
         <Booting />
       ) : (
         <Pagechange>
+          <Nav />
           <div className={style.Contact}>
             <div className={style.CInfo}>
               <h2>Get in touch</h2>
@@ -89,6 +91,7 @@ function Contact() {
             <div className={style.CSect}>
               <h3>
                 <span>Questions or need assistance?</span>
+                <br />
                 <span>Let us know about it!</span>
               </h3>
               <form className={style.CForm} onSubmit={handleSubmit} action="">
@@ -112,7 +115,7 @@ function Contact() {
                   value={formData.email}
                   name="email"
                   id=""
-                  placeholder="mail"
+                  placeholder="Mail"
                 />{" "}
                 <textarea
                   name="message"
@@ -120,6 +123,7 @@ function Contact() {
                   value={formData.message}
                   id=""
                   placeholder="Message"
+                  style={{ resize: "none" }}
                 />
                 <button type="submit">Submit</button>
               </form>

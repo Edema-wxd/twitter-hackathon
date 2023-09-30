@@ -1,3 +1,4 @@
+
 .Register {
   display: flex;
   flex-direction: row;
@@ -84,7 +85,8 @@
   line-height: normal;
   margin-bottom: 0.7rem;
 }
-.RSFICard > input {
+.RSFICard > input,
+.RSFDCard > input {
   height: 2.4375rem;
   border-radius: 0.25rem;
   border: 1px solid #fff;

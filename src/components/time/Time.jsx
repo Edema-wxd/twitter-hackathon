@@ -32,19 +32,28 @@ function Time() {
           <h4>November 18, 2023</h4>
         </div>
         <div className="">
-          <h4></h4>
-          <p></p>
-          <h4></h4>
+          <h4>Announcement of the accepted teams and ideas</h4>
+          <p>
+            All teams whom idea has been accepted into getlinked tech hackathon
+            1.0 2023 are formally announced
+          </p>
+          <h4>November 18, 2023</h4>
         </div>
         <div className="">
-          <h4></h4>
-          <p></p>
-          <h4></h4>
+          <h4>Getlinked Hackathon 1.0 Offically Begins</h4>
+          <p>
+            Accepted teams can now proceed to build their ground breaking skill
+            driven solutions
+          </p>
+          <h4>November 18, 2023</h4>
         </div>
         <div className="">
-          <h4></h4>
-          <p></p>
-          <h4></h4>
+          <h4>Demo Day</h4>
+          <p>
+            Teams get the opportunity to pitch their projects to judges. The
+            winner of the hackathon will also be announced on this day
+          </p>
+          <h4>November 18, 2023</h4>
         </div>
       </div>
     </div>
