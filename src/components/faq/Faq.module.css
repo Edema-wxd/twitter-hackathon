@@ -1,0 +1,59 @@
+.Faq {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+}
+.FTxt {
+  display: flex;
+  flex-direction: column;
+}
+.FTxt > h2 {
+  color: #fff;
+  font-family: var(--clash);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%; /* 2.66rem */
+}
+.FTxt > h2 > span {
+  color: #d434fe;
+}
+.FTxt > p {
+  color: #fff;
+  max-width: 22rem;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71875rem; /* 196.429% */
+}
+
+.FTxt > p > span {
+  font-weight: 700;
+}
+
+.FTQuest {
+  display: flex;
+  flex-direction: column;
+}
+.FTQCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 0.0625rem #d434fe;
+  width: 27rem;
+}
+.FTQCard > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71875rem; /* 196.429% */
+}
+
+.FTQCard > img {
+  margin: auto 0;
+  max-width: 0.75rem;
+}

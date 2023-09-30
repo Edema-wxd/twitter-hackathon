@@ -1,0 +1,39 @@
+.Confirm {
+  width: 43.6875rem;
+  height: 41.5rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+}
+.Confirm > img {
+  margin: 0 auto;
+  transition: transform 300ms ease-in-out;
+}
+.Confirm > img:hover {
+  transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.Confirm > h3 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--mont);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Confirm > p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Confirm > button {
+  margin: 0 auto;
+  width: 35.875rem;
+  height: 3.3125rem;
+  border-radius: 0.25rem;
+  background: var(--grade);
+}

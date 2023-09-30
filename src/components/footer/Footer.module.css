@@ -1,0 +1,128 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #100b204b;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  gap: 3.3rem;
+}
+.Footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.FBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 10rem;
+}
+.FBody > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.FBTxt {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  text-align: left;
+  padding: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 1.293rem */
+}
+.FBTxt > img {
+  width: min-content;
+}
+
+.FBTLink {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.FBTLink > p {
+  margin: 0;
+}
+.FBTLink > hr {
+  margin: auto 0.25rem;
+  border-color: #d434fe;
+  height: 1rem;
+}
+
+.FBUse {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 1.293rem */
+}
+.FBUse > h4,
+.FBCont > h4 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 172.4%; /* 1.5085rem */
+}
+.FBUEx {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 13rem;
+}
+.FBUEx > p {
+  color: #d434fe;
+  margin: auto;
+  line-height: normal;
+}
+.FBUEx > a {
+  width: min-content;
+  margin: auto;
+}
+
+.FBCont {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.9%; /* 1.18425rem */
+}
+
+.FBCont > div {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.FBCont > div > p {
+  width: 6.5rem;
+  margin: 0;
+}
+.FBCont > div > img {
+  width: min-content;
+  margin: 0 auto auto;
+}
+
+.FFoot {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}

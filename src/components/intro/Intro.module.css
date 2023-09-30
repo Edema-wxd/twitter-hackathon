@@ -1,0 +1,82 @@
+.Intro {
+  display: flex;
+  flex-direction: column;
+}
+.ICard {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 6.25rem;
+}
+.ICTxt {
+  display: flex;
+  flex-direction: column;
+}
+.ICTxt > h3 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%; /* 2.66rem */
+  max-width: 25rem;
+}
+.ICTxt > h3 > span {
+  color: #d434fe;
+}
+.ICTxt > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71875rem; /* 196.429% */
+  max-width: 33rem;
+}
+.IJudge {
+  display: flex;
+  flex-direction: row;
+  gap: 3.25rem;
+  justify-content: center;
+}
+.IJSect {
+  display: flex;
+  flex-direction: column;
+  max-width: 33rem;
+}
+.IJSect > h3 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%; /* 2.66rem */
+}
+.IJSect > h3 > span {
+  color: #d434fe;
+}
+.IJSect > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.5%;
+}
+.IJSect > p > span {
+  color: #ff26b9;
+}
+
+.IJSect > button {
+  width: 10.75rem;
+  height: 3.3125rem;
+  border-radius: 0.25rem;
+  border: none;
+  background: var(--grade);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,204 @@
+.Register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Register > img {
+  width: 44.8125rem;
+  height: 44.8125rem;
+  flex-shrink: 0;
+  margin: auto;
+}
+.RSect {
+  width: 46.25rem;
+  height: auto;
+  margin: 3.5rem auto;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  padding: 5.69rem 4.06rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.RSect > h2 {
+  color: #d434fe;
+  font-family: var(--clash);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  line-height: normal;
+}
+.RSMove {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2.87rem;
+}
+.RSMove > p {
+  display: block;
+  width: max-content;
+  padding: 0px;
+  margin: auto 0 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+.RSect > h3 {
+  color: #fff;
+  font-family: var(--mont);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.RSForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.RSFInput {
+  display: grid;
+  grid-template-areas: ". .";
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+.RSFICard {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.RSFICard > label,
+.RSFDCard > label {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.7rem;
+}
+.RSFICard > input {
+  height: 2.4375rem;
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.25rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.RSFICard > input::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.RSFDrop {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.RSFDCard {
+  display: flex;
+  flex-direction: column;
+  width: -moz-available;
+}
+.RSFDCard > select {
+  width: auto;
+  height: 2.9375rem;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.RSFDCard > select > option {
+  background: #150e28;
+  color: #fff;
+  border: none;
+  margin: none;
+}
+.RSFDCard > select > option:hover {
+  background: #150e28;
+  color: #ff26b9;
+}
+
+.RSFReview {
+  color: #ff26b9;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+.RSFTnc > input {
+  border-radius: 0.125rem;
+  border: 1px solid #fff;
+}
+.RSFTnc {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.RSForm > button {
+  border-radius: 0.25rem;
+  border: none;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+
+  height: 3.3125rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-shrink: 0;
+  transition: transform 300ms ease-out;
+}
+
+.RSForm > button:hover {
+  transform: translate(1px, 1px) scale(1.1, 1.1);
+}
+.RSForm > button:disabled {
+  background: linear-gradient(#150e28, #150e28) padding-box,
+    var(--grade) border-box;
+  border: 2px solid transparent;
+}
+.RSForm > button:disabled:hover {
+  transform: none;
+}

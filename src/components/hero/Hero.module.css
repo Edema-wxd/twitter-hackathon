@@ -1,0 +1,105 @@
+.Hero {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-areas:
+    "HIno HIno"
+    "HInfo HImg";
+}
+
+.HIno {
+  display: flex;
+  flex-direction: column;
+  grid-area: HIno;
+  justify-content: flex-end;
+}
+.HIno > img {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 3.5rem;
+}
+
+.HIp {
+  max-width: 47rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-left: auto;
+  margin-right: 3.5rem;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+
+.HInfo {
+  grid-area: HInfo;
+  padding-left: 8rem;
+}
+.HITitle > h1 {
+  max-width: 38rem;
+  color: #fff;
+  font-family: var(--clash);
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.HITitle > h1 > span {
+  color: #d434fe;
+}
+
+.HInfo > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%; /* 2.075rem */
+}
+.HInfo > button {
+  color: #fff;
+  width: 10.75rem;
+  height: 3.3125rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
+.HICount > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%; /* 1.16375rem */
+}
+.HICount > p > span {
+  color: #fff;
+  font-family: Unica One;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%; /* 5.32rem */
+}
+
+.HImg {
+  grid-area: HImg;
+  mix-blend-mode: luminosity;
+}

@@ -1,0 +1,96 @@
+.Privacy {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+.PrivTxt {
+  display: flex;
+  flex-direction: column;
+}
+.PrivTxt > h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.PrivTxt > h2 > span {
+  color: #d434fe;
+}
+.PrivTxt > p:first-of-type {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71875rem; /* 196.429% */
+}
+.PrivTxt > p:nth-child(3) {
+  color: #fff;
+  max-width: 27rem;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%; /* 1.6485rem */
+}
+.PrivTBox {
+  width: 32rem;
+  height: 34.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  padding: 3.5rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+.PrivTBox p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  line-height: 216.4%; /* 1.8935rem */
+}
+.PrivTBox > h5 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%; /* 1.8935rem */
+}
+.PrivTBox > h5 > span {
+  color: #d434fe;
+  font-size: 1rem;
+}
+.PrivTBox > button {
+  width: 10.75rem;
+  height: 3.3125rem;
+  margin: auto;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 0.25rem;
+  border: none;
+  background: var(--grade);
+}
+
+.PrivTBTxt {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+}
+.PrivTBTxt > img {
+  margin: 0.5rem auto auto;
+}
