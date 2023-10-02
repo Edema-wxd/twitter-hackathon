@@ -30,10 +30,10 @@ function Footer() {
         <div className="">
           <div className={style.FBUse}>
             <h4>Useful Links</h4>
-            <AnchorLink>Overview</AnchorLink>
-            <AnchorLink>Timeline</AnchorLink>
-            <AnchorLink>FAQs</AnchorLink>
-            <Link>Register</Link>
+            <AnchorLink href="#over" >Overview</AnchorLink>
+            <AnchorLink href="#time" >Timeline</AnchorLink>
+            <AnchorLink href="#faq" >FAQs</AnchorLink>
+            <Link to={"/register"} >Register</Link>
             <div className={style.FBUEx}>
               <p>Follow us</p>
               <a href="/">
