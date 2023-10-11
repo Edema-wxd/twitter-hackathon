@@ -30,7 +30,7 @@ function Hero() {
         <button onClick={() => navigate("/register")}>Register</button>
         <div className={style.HICount}>
           <p>
-            <span>00</span>H<span>00</span>M<span>00</span>S
+            <span>00</span>H <span>00</span>M <span>00</span>S
           </p>
         </div>
       </div>

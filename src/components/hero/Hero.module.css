@@ -103,3 +103,77 @@
   grid-area: HImg;
   mix-blend-mode: luminosity;
 }
+@media only screen and (max-width: 900px) {
+  .HImg > img {
+    max-width: 75%;
+    margin: auto 0;
+  }
+  .HIno {
+    margin: auto;
+    width: 90%;
+  }
+  .HIno > img {
+    margin: 0 0 0 auto;
+  }
+  .HIp {
+    margin: 0 0 0 auto;
+    font-size: 1.25rem;
+  }
+  .HImg {
+    display: flex;
+  }
+  .HInfo {
+    padding: 0 2rem;
+  }
+  .HITitle > h1 {
+    font-size: 2.5rem;
+    max-width: 20rem;
+  }
+  .HITitle img {
+    width: 1rem;
+  }
+  .HInfo > p {
+    font-size: 0.8rem;
+    max-width: 10rem;
+  }
+  .HInfo > button {
+    margin: auto;
+    width: 8rem;
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero {
+    grid-template-areas: "HIno" "HInfo" "HImg";
+  }
+  .HIno {
+    margin: auto;
+    justify-content: flex-start;
+  }
+  .HIno > img {
+    margin: 0 0 0 auto;
+  }
+  .HIp {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  .HInfo {
+    padding: 0.5rem;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .HITitle > h1 {
+    max-width: 80%;
+    text-align: center;
+
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .HImg > img {
+    max-width: 90%;
+  }
+}

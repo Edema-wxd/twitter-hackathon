@@ -126,3 +126,23 @@
   line-height: normal;
   margin: auto;
 }
+@media only screen and (max-width: 900px) {
+  .linkarr {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header {
+    gap: 1rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menubtn {
+    display: none;
+  }
+  .linkarr {
+    display: none;
+  }
+}
